@@ -1,0 +1,49 @@
+<!DOCTYPE html> <!-- TAG <DOCTYPE> identifica o tipo de documento que será construído no arquivo -->
+
+    <html> <!-- TAG <html> define a estrutura básica da página. Tem duas subestruturas principais, <head> e <body> -->
+        <head> <!-- TAG <head> Cabeçalho da página com algumas informações como <title> -->
+            <title>Profile</title> <!-- TAG <title> Título da página, aparece na aba do navegador-->
+            <link href="https://fonts.googleapis.com/css?family=Montserrat&:400,700" rel="stylesheet"> <!-- link para estilo de fonte externa -->
+            <link rel="stylesheet" href="styles.css">
+            
+        </head>
+        <body> <!-- TAG <body> define a estrutura principal da página com botões, texto, etc-->
+            <header> <!-- TAG <header> só pode ser utilizada dentro da estrutura de <body>. Contem elementos visuais.-->
+                <nav> <!-- TAG <nav> específica para navegação. -->
+                    <a href="#" class="navbar-brand">Juca Tigre</a> <!-- TAG <a> indica um hiperlink, href="#" indica uma página nula, placeholder -->
+                    <ul class="menu-items"> <!-- TAG <ul> lista de elementos-->
+                        <li><a href="#">Portifolio</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+                
+            </header>
+            <section class="profile-container"> <!-- TAG <section> cria uma seção na página-->
+                <div class="profile"> 
+                    <img src="images/profile1.svg" alt="Profile">
+                    <h1 class="profile-title">Juca Gonçalves</h1>
+                    <h3 class="profile-description">
+                        <li>HTML + CSS: Bem básico</li>
+                        <li>Python + Django + Rest: Mediano</li>
+                    </h3>
+
+                </div>
+            </section>
+            <section class="portifolio">
+                <h1 class="portifolio-title">Portifolio</h1>
+                <div class="portifolio-container">
+                    <img src="images/portfolio1.png" alt="">
+                    <img src="images/portfolio2.png" alt="">
+                    <img src="images/portfolio3.png" alt="">
+                    <img src="images/portfolio4.png" alt="">
+                    <img src="images/portfolio5.png" alt="">
+                    <img src="images/portfolio6.png" alt="">
+                </div>
+            </section>
+        </body>
+    </html>
+    
+    <!-- Estrutura de comentários -->
+    <!-- TAG <head>-->
+    <!-- CSS-- /*  */ -->
